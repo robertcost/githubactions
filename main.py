@@ -9,7 +9,7 @@ def calculate_bmr(height_inches, weight_pounds, age, gender):
     elif gender.lower() == "female":
         bmr = 655.1 + (4.35 * weight_pounds) + (4.7 * height_inches) - (4.7 * age)
     else:
-        raise ValueError("Invalid gender. Please enter 'male' or 'female'.")
+        raise ValueError("Invalid gender.  Please enter 'male' or 'female'.")
 
     return bmr
 
